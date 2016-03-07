@@ -1,5 +1,5 @@
 
-# docker create --name mongodata -v /var/pythia/volumes/mongodata:/data/db busybox
+# docker create --name mongodata -v /data/mongo:/data/db busybox
 mongo:
   restart: always
   image: mongo:latest

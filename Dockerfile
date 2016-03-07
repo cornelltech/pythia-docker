@@ -7,8 +7,6 @@ RUN mkdir -p /usr/src/app
 
 WORKDIR /usr/src/app
 
-ADD ./requirements.txt requirements.txt
-
 RUN virtualenv env
 
 RUN . env/bin/activate
